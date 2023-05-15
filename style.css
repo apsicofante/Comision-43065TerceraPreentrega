@@ -476,6 +476,18 @@ ul li {
     list-style: none;
 }
 /**estilos menu**/
+.cafeteriaBody {
+    background-image: url(./assets/img/espresso.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: max-content;
+    width: 100%;
+}
+.cafeteria li{
+    color: white;
+}
+
 .containerFlexMenu{
     display: flex;
     justify-content: space-around;
@@ -507,12 +519,14 @@ ul li {
 }
 .desayuno {
     transition: transform 800ms 0.1s;
+    display: none;
 }
 .almuerzo {
     transition: transform 800ms 0.1s;
 }
 .cena{
     transition: transform 800ms 0.1s;
+    display: none;
 }
 
 .textoMenu p {
