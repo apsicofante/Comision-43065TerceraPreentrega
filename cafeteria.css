@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lato:ital@1&family=Roboto&display=swap');
+/**
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+**/
+
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    color: #C02425;
+    text-shadow: 2px 2px 5px rgb(10, 10, 10);
+}    
+h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #312e2e;
+    text-shadow: 2px 2px 5px rgb(250, 250, 250);
+}    
+
+
+.imgProductos {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.colorBoton {
+    color: white;
+    background-color:#C02425;
+}
+
+.colorBoton:hover {
+    background: linear-gradient(to top, #C02425,#fba2bf);
+    color: white;
+}
+.cafeteriaBody {
+    background-image: url(./assets/img/espresso.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: max-content;
+    width: 100%;
+}

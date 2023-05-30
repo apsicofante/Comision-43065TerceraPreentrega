@@ -519,10 +519,10 @@ ul li {
 }
 .desayuno {
     transition: transform 800ms 0.1s;
-    display: none;
 }
 .almuerzo {
     transition: transform 800ms 0.1s;
+    display: none
 }
 .cena{
     transition: transform 800ms 0.1s;
